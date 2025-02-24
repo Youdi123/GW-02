@@ -293,15 +293,15 @@ img {
 /* The navigation menu */
 .navbar {
 	overflow: hidden;
-	background-color: #333;
+	background-color: #fa0202;
 }
 /* Navigation links */
 .navbar a {
 	float: left;
-	font-size: 16px;
+	font-size: 30px;
 	color: #ffffff;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 14px 30px;
 	text-decoration: none;
 }
 .navbar a:hover {
