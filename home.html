@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Welcome, {{ user['name'] }}!</h1>
+
+    {% if is_new_user %}
+        <p>It looks like this is your first time here. Welcome aboard! 🎉</p>
+    {% else %}
+        <p>Welcome back! Great to see you again. 👋</p>
+    {% endif %}
+
+    <a href="/logout">Logout</a>
+</body>
+</html>
